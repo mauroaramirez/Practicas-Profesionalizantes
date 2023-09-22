@@ -1,0 +1,22 @@
+.center{
+    text-align: center;
+}
+
+.fondo{
+    background-color: bisque;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+
+.cuadro1{
+    background-color: crimson;
+}
+
+.cuadro2{
+    background-color: blueviolet;
+}
+
+.cuadro3{
+    background-color: chartreuse;
+}
