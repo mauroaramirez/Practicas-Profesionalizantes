@@ -1,5 +1,6 @@
 .center{
     text-align: center;
+    color: white;
     margin-top: 2%;
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,4 +23,18 @@
 
 .cuadro3{
     background-color: chartreuse;
+}
+
+body{
+    background-image:url(../img/Fondo/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+    background-image:url(../img/Fondo/fondo_oscuro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
