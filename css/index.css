@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
 .center{
     text-align: center;
     color: white;
@@ -6,35 +11,35 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.fondo{
-    background-color: bisque;
-    width: 90%;
-    height: 200px;
-    margin: auto;
-}
-
-.cuadro1{
-    background-color: crimson;
-}
-
-.cuadro2{
-    background-color: blueviolet;
-}
-
-.cuadro3{
-    background-color: chartreuse;
-}
-
-body{
-    background-image:url(../img/Fondo/fondo.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 body{
     background-image:url(../img/Fondo/fondo_oscuro.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#portfolio{
+    color: white;
+}
+
+.parrafos{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    width: 70%;
+    height: auto;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    width: 70%;
+    height: auto;
 }
