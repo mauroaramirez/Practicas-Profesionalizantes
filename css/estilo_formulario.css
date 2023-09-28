@@ -39,15 +39,23 @@
   
   .container {
     margin-top: 3%;
-    border-radius: 5px;
-    background-color: #8846e5;
-    padding: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-radius: 20px;
+    background-image:url(../img/Fondo/fondo_hojas.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: ;
   }
   
   .col-25 {
+    
+    color: #16072a;
+    font-size: x-large;
+    text-align: center;
     float: left;
     width: 25%;
     margin-top: 6px;
@@ -62,6 +70,7 @@
   
   /* Borrar flotadores despues de las columnas */
   .row::after {
+    
     content: "";
     display: table;
     clear: both;
