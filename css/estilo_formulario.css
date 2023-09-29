@@ -6,10 +6,6 @@
   background-attachment: fixed;
   background-size: cover;
 }
-  
-
-
-  
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -48,11 +44,10 @@
     padding: 30px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: ;
+    margin-bottom:20%;
   }
   
-  .col-25 {
-    
+  .col-25 { 
     color: #16072a;
     font-size: x-large;
     text-align: center;
