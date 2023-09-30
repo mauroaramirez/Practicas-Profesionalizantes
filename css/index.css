@@ -22,6 +22,31 @@ body{
     color: white;
 }
 
+.video-box{
+    width: 80%;
+    height: auto;
+    margin: 10px auto 0 auto;/*margin: top - right - bottom - left */
+    min-width: 250px;
+}
+
+.video video{
+    width: 100%;
+    height: auto;
+}
+
+.tituloVideo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titulos-parrafos{
+    text-align: center;
+    color: white;
+}
+
 .parrafos{
     color: white;
     text-align: center;
@@ -33,34 +58,16 @@ body{
     height: auto;
 }
 
-.video-box{
-    width: 80%;
-    max-width: 1380px;
-    height: auto;
-    margin: 10px auto 0 auto;/*margin: top - right - bottom - left */
-    min-width: 250px;
-}
-
-.video video{
+.footer-box{
+    background-image: url(../img/Fondo/fondo_claro.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     height: auto;
-}
-
-/* .video{
-    margin-top: 2%;
-    margin-left: 10%;
-    display: flex;
-    flex: 1;
+    padding: 3%;
+    margin: 5px auto 0 auto;/*margin: top - right - bottom - left */
     min-width: 250px;
-} */
-
-
-.tituloVideo{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .footer{
