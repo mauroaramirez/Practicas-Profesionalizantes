@@ -33,17 +33,19 @@ body{
     height: auto;
 }
 
+.video{
+    margin-top: 2%;
+    margin-left: 10%;
+    flex: 1;
+    min-width: 250px;
+}
+
 .tituloVideo{
-    margin-right: 10rem;
-    margin-bottom: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.video{
-    margin-top: 5rem;
-    margin-left: 12rem;
 }
 
 .footer{
