@@ -3,61 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo_formulario.css">
     <link rel="stylesheet" href="/Practicas-Profesionalizantes/css/estilo_formulario.css">
 
     <title>Formulario</title>
 </head>
 <body>
-    <div class="container">
-        <form action="/action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname"><strong>Nombre</strong></label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="Nombre" placeholder="Nombre..">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname"><strong>Apellido</strong></label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="Apellido" placeholder="Apellido..">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="País"><strong>País</strong></label>
-          </div>
-          <div class="col-75">
-            <select id="País" name="País">
-              <option value="australia">Argentina</option>
-              <option value="canada">Uruguay</option>
-              <option value="usa">Paraguay</option>
-              <option value="usa">Brasil</option>
-
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="subject"><strong>Mensaje</strong></label>
-          </div>
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Escribe algo..." style="height:200px"></textarea>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <input type="submit" value="Enviar">
-        </div>
-        </form>
-        <div class="row">
-        <button onclick="history.back()">Go Back</button>
-        </div>
-      </div>
-      
-    
+    <!-- Comienzo del formulario -->
+    <form action="#" class="formulario-registro">
+      <h4>Formulario de Registro</h4>
+      <input class="control" type="text" name="Nombres" id="Nombres" placeholder="Ingrese  Nombre">
+      <input class="control" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese Apelido">
+      <input class="control" type="text" name="País" id="País" placeholder="Ingrese País">
+      <input class="control" type="number" name="Número" id="Número" placeholder="Ingrese Telefono">
+      <input class="control" type="email" name="Email" id="Email" placeholder="Ingrese su Email">
+      <input class="boton"   type="submit" value="Enviar">
+       <!-- Se recomienda siempre submit para formulario -->
+  </form> 
 </body>
 </html>
