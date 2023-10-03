@@ -29,7 +29,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #031810;
+  background-color: #1e3e32;
 }
 .texto{
 padding:20px;
