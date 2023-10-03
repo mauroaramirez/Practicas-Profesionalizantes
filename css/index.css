@@ -6,7 +6,7 @@
 .center{
     text-align: center;
     color: white;
-    margin-top: 2%;
+    margin-top: 9%;
     margin-bottom: 3%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -80,4 +80,10 @@ body{
     width: 70%;
     height: auto;
 }
-
+/* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
+@media screen and (max-width: 600px) {
+    .contenedor {
+        background-color: aqua;
+        width: 100%;
+    }
+}
