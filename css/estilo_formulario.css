@@ -1,80 +1,53 @@
 * {
-    box-sizing: border-box;
-  }
- body{background-image:url(../img/Fondo/fondo_oscuro.jpg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.formulario-registro {
+width: 400px;
+background: #0a1c2e;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'calibri';
+color: white;
+box-shadow: 7px 13px 37px #000;}
+
+ body {
+  background-image: url(/Practicas-Profesionalizantes/img/Fondo/fondo_claro.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #603498;
-    border-radius: 4px;
-    resize: vertical;
-  }
   
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  /* Se da estilo al boton enviar */
-  input[type=submit] {
-    background-color: #171c1a;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  /* Cambia el color del boton enviar */
-  input[type=submit]:hover {
-    background-color: #9775ed;
-  }
-  
-  .container {
-    margin-top: 3%;
-    border-radius: 20px;
-    background-image:url(../img/Fondo/fondo_hojas.png);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+ }
 
-    padding: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom:20%;
-  }
+.formulario-registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px ;
+
+}
+.control {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.boton {
+  width: 100% ;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  box-shadow: 3px 5px 20px rgb(113, 105, 162);
   
-  .col-25 { 
-    color: #16072a;
-    font-size: x-large;
-    text-align: center;
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  .col-75 {
-    font-size: xx-large;
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-  
-  /* Borrar flotadores despues de las columnas */
-  .row::after {
-    
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /*Diseño responsivo: cuando la pantalla tiene menos de 600 píxeles de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra  */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+
+}
