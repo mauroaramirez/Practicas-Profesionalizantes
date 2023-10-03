@@ -80,4 +80,11 @@ body{
     width: 70%;
     height: auto;
 }
-
+/* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
+@media screen and (max-width: 600px) {
+    .contenedor {
+        background-color: aqua;
+        width: 100%;
+        margin-top: 0;
+    }
+}
