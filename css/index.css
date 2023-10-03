@@ -81,9 +81,9 @@ body{
     height: auto;
 }
 /* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .contenedor {
         background-color: aqua;
         width: 100%;
     }
-}
+} */
