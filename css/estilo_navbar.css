@@ -27,20 +27,22 @@ li a {
   padding: 14px 20px;
   text-decoration: none;
 }
-
+/* Cambio de color cuabdo se posiciona sobre la palabra */
 li a:hover:not(.active) {
-  background-color: #aa0473;
+  background-color: #12040d;
 }
 
 .active {
   background-color: #1e3e32;
 }
+/* texto de la barra */
 .texto{
 padding:20px;
 margin-top:30px;
 background-color:#95d2c5;
 height:1500px;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -56,9 +58,9 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/* se da color inicio de display */
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: rgb(16, 3, 3);
 }
 
 li.dropdown {
@@ -73,9 +75,9 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(198, 54, 54, 0.2);
   z-index: 1;
 }
-/* contendor del texto  */
+/* contendor del texto  y color del mismo */
 .dropdown-content a {
-  color: rgb(5, 15, 2);
+  color: rgb(214, 53, 24);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
