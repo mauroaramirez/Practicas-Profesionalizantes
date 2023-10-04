@@ -10,7 +10,11 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
+/* La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. 
+Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.
+Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
 li {
   float: left;
@@ -43,9 +47,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;}
-
-
-
 
 /* comienzo de lista deplegable */
  .dropbtn {
