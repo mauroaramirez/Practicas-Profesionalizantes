@@ -4,34 +4,46 @@
   box-sizing: border-box;
 
 }
-.formulario-registro {
-width: 400px;
+.formulario-contacto {
+width:600px;
 background: #0a1c2e;
-padding: 30px;
+padding: 20px;
 margin: auto;
-margin-top: 100px;
+margin-top: 50px;
 border-radius: 4px;
 font-family: 'calibri';
 color: white;
 box-shadow: 7px 13px 37px #000;}
 
  body {
-  background-image: url(/Practicas-Profesionalizantes/img/Fondo/fondo_claro.jpeg);
+  background-image: url(/Practicas-Profesionalizantes/img/Fondo/fondo_oscuro.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   
  }
 
-.formulario-registro h4 {
+.formulario-contacto h4 {
   font-size: 22px;
   margin-bottom: 20px ;
 
 }
-.control {
+.lineatexto {
   width: 100%;
   background: #24303c;
   padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.mensaje{
+  width: 100%;
+  background: #24303c;
+  
+  padding: 25px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid #1f53c5;
@@ -39,7 +51,11 @@ box-shadow: 7px 13px 37px #000;}
   font-size: 18px;
   color: white;
 }
-.boton {
+  
+  
+
+
+.botonenviar {
   width: 100% ;
   background: #1f53c5;
   border: none;
