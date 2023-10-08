@@ -45,10 +45,12 @@ height:1500px;
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+    margin: 0px;
+    padding: 0px;
   overflow: hidden;
-  background-color: #333;}
+background-color: #333;
+}
+  
 
 /* comienzo de lista deplegable */
  .dropbtn {
@@ -70,14 +72,14 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color:#333;
+  background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(198, 54, 54, 0.2);
   z-index: 1;
 }
 /* contendor del texto  y color del mismo */
 .dropdown-content a {
-  color: white;
+  color: white(214, 53, 24);
   padding: 12px 16px;
   text-decoration: none;
   display: block;

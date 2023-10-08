@@ -26,54 +26,66 @@
   <link href="css/estilo_porfolio.css" rel="stylesheet" />
 
   <link href="css/index.css" rel="stylesheet" />
+
+  <link href="css/estilo_footer.css" rel="stylesheet" />
+
   <link rel="stylesheet" href="/Practicas-Profesionalizantes/css/estilo_navbar.css">
-  
+
   <title>Ser Alma en Cuerpo</title>
   <!--Primero obtenemos el CSS desde el framework Bootstrap y luego aplicamos nuestro propio CSS
     Bootstrap siempre divide el contenido del navegador en 12 columnas
     -->
 </head>
-<body>
-<div class="contenedor">
-  <header>
-    <h1 class="center">SER ALMA EN CUERPO</h1>
-  </header>
-  <!-- Inicio barra nav -->
-  <div>
-    <ul>
-      <li>
-        <a class="active" href="pages/galeria.html">Galeria</a>
-      </li>
-      <li>
-        <a href="video/video.mp4">Videos</a>
-      </li>
-      <li>
-        <a href="pages/formulario.html">Contacto</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropbtn">Terapia on-line</a>
-        <div class="dropdown-content">
-          <a href="#">Sanación</a>
-          <a href="#">Terapia de sanación</a>
-          <a href="pages/talleres_off_line.html">Talleres Off-line</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-<!-- Fin barranav -->
-  
-<!--INICIO CARRUSEL-->
 
-  <!--PREGUNTAR AL PROFE:
+<body>
+  <div class="contenedor">
+    <header>
+      <h1 class="titulo" id="inicio">SER ALMA EN CUERPO</h1>
+    </header>
+    <!-- Inicio barra nav -->
+    <div>
+      <ul>
+        <li>
+          <a href="#inicio">Inicio</a>
+        </li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropbtn">Terapias on-line</a>
+          <div class="dropdown-content">
+            <a href="#">Sanación</a>
+            <a href="#">Terapia de sanación</a>
+             <a href="pages/talleres_off_line.html">Talleres Off-line</a> -->
+          <!-- </div>
+        </li>
+        <li>
+          <a class="active" href="#">Galeria</a>
+        </li>
+        <li>
+          <a href="video/video.mp4">Videos</a>
+        </li> -->
+        <li>
+          <a href="pages/formulario.html">Contacto</a>
+        </li>
+        <li>
+          <a href="#footer">Nuestras redes sociales</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Fin barranav -->
+
+    <!--INICIO CARRUSEL-->
+
+    <!--PREGUNTAR AL PROFE:
   - COMO MODIFICAR EL CSS EXTRAIDO DE BOOSTRAP"""
   - PODEMOS AGREGAR NUESTRO PROPIO CAMBIOS DEL ESTILO CSS 
 -->
 
     <!--INICIO CARRUSEL-->
+
     <!-- El atriburo data-bs-ride="carousel" hace que el carrusel se mueva automaticamente  -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
       style="width: 80%; margin-left: 10%;">
-      <div class="carousel-indicators"> 
+      <!-- Botones inferiores del carrusel -->
+      <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -125,12 +137,12 @@
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
+        data-bs-slide="prev" style="width: 3%;">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
+        data-bs-slide="next" style="width: 3%;">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -142,7 +154,7 @@
       <div class="video-box">
         <div class="video">
           <div class="tituloVideo">
-            <h2>Video Presentación</h2>
+            <!-- <h2>Video Presentación</h2> -->
           </div>
           <video controls>
             <source src="./video/video.mp4" type="video/mp4">
@@ -270,22 +282,35 @@
     <!-- FIN PARRAFOS -->
 
     <!-- INICIO FOOTER-->
-    <section>
-      <div class="footer-box">
-        <div class="footer">
-          <footer>
+    <section id="footer">
+      <footer>
+        <div class="footer-box">
+          <div class="footer">
             <div class="iconos">
+              <p>Seguínos en: </p>
               <a href="https://www.instagram.com/seralmaencuerpo" target="_blank">
-                <img src="./img/iconos/instagram.png" alt="Icono Instagram" style="width:80px;height:80px; margin: 3%;">
+                <img title="Instagram" src="./img/iconos/instagram.png" alt="Icono Instagram"
+                  style="width:80px;height:80px; margin: 3%;">
               </a>
               <a href="https://wa.me/5491141615646?text=Hola%20estoy%20interesado%20en%20tus%20productos%20PRUEBA!"
                 target="_blank">
-                <img src="./img/iconos/whatsapp.png" alt="Icono Whatsapp" style="width:80px;height:80px; margin: 3%;">
+                <img title="Whatsapp" src="./img/iconos/whatsapp.png" alt="Icono Whatsapp"
+                  style="width:80px;height:80px; margin: 3%;">
               </a>
             </div>
-          </footer>
+          </div>
+          <div class="copyright">
+            <div style="display: inline-block; margin-left: 90%;">
+              <a href="#inicio">
+                <img title="Inicio" src="./img/iconos/flechas-hacia-arriba.png" alt="Icono Whatsapp"
+                  style="width:60px;height:60px; margin: 3%;">
+              </a>
+            </div>
+            <p>Diseñado por:<br>Ramirez Mauro - Zanor Dante - Martinez Tizziano - Toloza Pablo<br>Copyright © 2023 |
+              Derechos Reservados | Ser Alma en Cuerpo</p>
+          </div>
         </div>
-      </div>
+      </footer>
     </section>
   </div>
   <!-- FIN FOOTER-->

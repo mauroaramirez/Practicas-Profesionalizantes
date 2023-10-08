@@ -1,0 +1,25 @@
+.footer-box{
+    background-image: url(../img/Fondo/fondo_nebulosa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.1rem;
+    margin:0;
+}

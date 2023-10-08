@@ -12,12 +12,22 @@
     <!-- Comienzo del formulario -->
     <form action="#" class="formulario-contacto">
       <h4>Formulario de Contacto</h4>
-      <input class="lineatexto" type="text" name="Nombres" id="Nombres" placeholder="Ingrese  Nombre">
-      <input class="lineatexto" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese Apelido">
-      <input class="lineatexto" type="text" name="País" id="País" placeholder="Ingrese País">
-      <input class="lineatexto" type="number" name="Número" id="Número" placeholder="Ingrese Telefono">
-      <input class="lineatexto" type="email" name="Email" id="Email" placeholder="Ingrese su Email">
-      <input class="mensaje" type="text" name="Mensaje" id="Mensaje" placeholder="Mensaje">
+<h3>Seleccione su terapia</h3>
+<select class="lineatexto" id="Terapias" name="Terapias">
+  <option value="Terapias">Diagnostico con Pendulo</option>
+  <option value="Terapias">Liberacion Emocional</option>
+  <option value="Terapias">Biodecodificacion</option>
+  <option value="Terapias">Otro</option>
+</select>
+      
+      <input class="lineatexto" type="text"   name="Nombres" id="Nombres" placeholder="Ingrese  Nombre">
+      <input class="lineatexto" type="text"   name="Apellidos" id="Apellidos" placeholder="Ingrese Apelido">
+      <input class="lineatexto" type="text"   name="País" id="País" placeholder="Ingrese País">
+      <input class="lineatexto" type="tel"    name="tel" id="tel" placeholder="Ingrese Telefono">
+      <input class="lineatexto" type="email"   name="Email" id="Email" placeholder="Ingrese su Email">
+      <textarea   class="lineatexto"  name="Mensaje" placeholder="Mensaje"></textarea>
+      
+      <!-- rows especifica la cantidad de lineas de texto y clos el ancho visible del area de texto -->
       <input class="botonenviar"   type="submit" value="Enviar">
        <!-- Se recomienda siempre submit para formulario -->
   </form> 
