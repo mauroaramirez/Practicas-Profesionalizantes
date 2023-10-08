@@ -1,8 +1,12 @@
 body {
     background-image: url(../img/Fondo/fondo_oscuro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
+    font-size: 3em;
     margin-top: 2%;
     margin-bottom: 2%;
     color: white;
