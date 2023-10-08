@@ -23,3 +23,9 @@
     font-size: 1.1rem;
     margin: 0;
 }
+
+.imagenes img{
+    width:80px;
+    height:80px; 
+    margin: 3%;
+}
