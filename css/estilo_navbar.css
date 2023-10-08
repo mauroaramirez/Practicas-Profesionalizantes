@@ -17,7 +17,7 @@ Cuando varios elementos se superponen, los elementos con mayor valor z-index cub
 Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
 li {
-  float: left;
+  float:left;
 }
 /* css letras de la barra de navegacion */
 li a {
@@ -27,7 +27,7 @@ li a {
   padding: 14px 20px;
   text-decoration: none;
 }
-/* Cambio de color cuando se posiciona sobre la palabra */
+/* Cambio de color cuabdo se posiciona sobre la palabra */
 li a:hover:not(.active) {
   background-color: #12040d;
 }
@@ -45,12 +45,10 @@ height:1500px;
 
 ul {
   list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-background-color: #333;
-}
-  
+  background-color: #333;}
 
 /* comienzo de lista deplegable */
  .dropbtn {
@@ -91,3 +89,4 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
