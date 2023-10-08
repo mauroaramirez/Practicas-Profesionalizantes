@@ -29,13 +29,13 @@ body{
     min-width: 250px;
 }
 
-.video video{
+.videos video{
     width: 100%;
     height: auto;
 }
 
 .tituloVideo{
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
     text-align: center;
     color: white;
@@ -57,6 +57,15 @@ body{
     width: 70%;
     height: auto;
 }
+
+.boton_volver_inicio img{
+    width:50px;
+    height:50px;
+    margin-left: 95%; 
+    margin-bottom: 1%;
+}
+
+
 
 /* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
 /* @media screen and (max-width: 600px) {
