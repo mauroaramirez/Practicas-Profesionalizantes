@@ -2,43 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
+
 /* Caja de formulario */
 .formulario-contacto {
-width:600px;
-background: #0a1c2e;
-padding: 20px;
-margin: auto;
-margin-top: 50px;
-border-radius: 10px;
-font-family: 'calibri';
-color: white;
-box-shadow: 7px 13px 37px #000;}
+  width: 600px;
+  background: #0a1c2e;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
 
 /* Comienzo de fondo */
- body {
+body {
   background-image: url(/Practicas-Profesionalizantes/img/Fondo/fondo_oscuro.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
- }
+}
+
 /* Titulo de formulario */
 .formulario-contacto h4 {
   text-align: center;
   font-size: 22px;
-  margin-bottom: 20px ;
-
-
+  margin-bottom: 20px;
 }
-h3
-{
+
+h3 {
   font-size: 22px;
-  margin-bottom: 20px ;
-  
-
+  margin-bottom: 20px;
 }
+
 /* Linea de texto del formulario */
 .lineatexto {
   width: 100%;
@@ -51,14 +49,12 @@ h3
   font-size: 18px;
   color: white;
 }
+
 option {
   font-display: grey;
-  
-
 }
 
-
-.mensaje{
+.mensaje {
   width: 100%;
   background: #24303c;
   padding: 25px;
@@ -69,12 +65,9 @@ option {
   font-size: 18px;
   color: white;
 }
-  
-  
-
 
 .botonenviar {
-  width: 100% ;
+  width: 100%;
   background: #1f53c5;
   border: none;
   padding: 12px;
@@ -82,6 +75,4 @@ option {
   margin: 16px 0;
   font-size: 16px;
   box-shadow: 3px 5px 20px rgb(113, 105, 162);
-  
-
 }
