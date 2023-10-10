@@ -1,21 +1,32 @@
 # Practicas-Profenisionalizantes
-# SER ALMA EN CUERPO - TRABAJO FINAL - PRACTICAS PROFESIONALIZANTES 1ER AÑO
+SER ALMA EN CUERPO - TRABAJO FINAL - PRACTICAS PROFESIONALIZANTES 1ER AÑO - 2023
 
-# TECNOLOGIAS UTILIZADAS:
+Este proyecto esta destinado a la creación de un sitio web de uso comercial y el mismo esta deplegado en internet.
+Se trabajó utilizando HTML5, CSS y se realizó consulta de documentacion en Boostrap y https://www.w3schools.com/.
+El trabajo se realizo en equipo trabajando en diferentes branchs de GitHub.
 
-# HTML 5
-# CSS
-# BOOSTRAP
-# GITHUB
-# GITHUB PAGES
-# FORMSUBMIT
+TECNOLOGIAS UTILIZADAS:
+    - HTML 5
+    - CSS
+    - BOOSTRAP
+    - GITHUB
+    - GITHUB PAGES
+    - FORMSUBMIT
+    - TRELLO
 
-[Live Demo](https://mauroaramirez.github.io/Practicas-Profesionalizantes/)
+Link Trello: [Trello] (https://trello.com/b/UFaGl3n6/practicas-profezionalizantes)
 
-# Vista Previa:
-![image](https://github.com/mauroaramirez/Practicas-Profesionalizantes/assets/4541773/b7271d9e-0f7a-4f83-9e36-e6e03c400fc2)
+En Trello dejamos una card con ladocumentación de donde se fue obteniendo algunas funcionalidades.
 
-Entrevista:
+Página de prueba en GitHub PAges: [Live Demo](https://mauroaramirez.github.io/Practicas-Profesionalizantes/)
+
+Desarrollado por: 
+    - Ramirez Mauro Adrian
+    - Dante Zanor
+    - Tizziano Martinez
+    - Pablo Toloza
+
+Entrevista con la clienta:
 
 1. ¿Queres un video de presentación?
     Me gustaría, pero no que aparezca yo, sino un vídeo con imágenes y voz en off o texto... lo puedo armar yo, solo necesitaría las especificaciones de tamaño y demás.
