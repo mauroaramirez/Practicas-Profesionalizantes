@@ -1,5 +1,19 @@
 # Practicas-Profenisionalizantes
-Trabajo Final pra PP 1°
+# SER ALMA EN CUERPO - TRABAJO FINAL - PRACTICAS PROFESIONALIZANTES 1ER AÑO
+
+# TECNOLOGIAS UTILIZADAS:
+
+# HTML 5
+# CSS
+# BOOSTRAP
+# GITHUB
+# GITHUB PAGES
+# FORMSUBMIT
+
+[Live Demo](https://mauroaramirez.github.io/Practicas-Profesionalizantes/)
+
+# Vista Previa:
+![image](https://github.com/mauroaramirez/Practicas-Profesionalizantes/assets/4541773/b7271d9e-0f7a-4f83-9e36-e6e03c400fc2)
 
 Entrevista:
 
