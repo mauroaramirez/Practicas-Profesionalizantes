@@ -39,6 +39,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;    
-    color: white;
     transform: rotateY(180deg);
+    font-size: 2em;
+  }
+
+  a{
+    color: white;
   }
