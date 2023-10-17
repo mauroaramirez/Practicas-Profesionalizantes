@@ -62,11 +62,13 @@ body {
 .boton_volver_inicio img {
     width: 50px;
     height: 50px;
-    margin-left: 92%;
-    margin-right: 2%;
-    margin-bottom: 1%;
     border-radius: 100%;
     box-shadow: 3px 5px 20px rgb(113, 105, 162);
+}
+
+.contenedor-boton-inico{
+    margin-left: 90%; 
+    margin-bottom: 1%;
 }
 
 /* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
