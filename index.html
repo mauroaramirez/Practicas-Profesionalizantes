@@ -38,214 +38,236 @@
 </head>
 
 <body>
-  <!-- Colodo un div general para luego aplicar media query -->
+  <!-- Coloco un div general para luego aplicar media query -->
   <div class="contenedor">
     <header>
       <h1 class="titulo" id="inicio">SER ALMA EN CUERPO</h1>
       <!-- Inicio barra nav -->
-      <nav>
-        <ul>
-          <!-- <li>
-            <img src="./img/Logo/logo.png" alt="" style="width: 80px; height: 80px;">
-          </li> -->
-          <li>
-            <a href="#inicio">Inicio</a>
-          </li>
-          <li>
-            <a href="pages/formulario.html">Contacto</a>
-          </li>
-          <li>
-            <a href="#footer">Nuestras redes sociales</a>
-          </li>
-        </ul>
-      </nav>
+      <header>
+        <nav class="navegacion">
+          <!-- <div style="display: inline-block;">
+            <img src="./img/Logo/logo_lila.png" alt="Logo_oscuro" title="Ser Alma en Cuerpo" style="width: 60px;height: 60px; margin-left: 10px;">
+          </div> -->
+          <div style="margin-left: 25%; display: inline-block;">
+            <ul class="menu">
+              <li>
+                <a href="#inicio">Inicio</a>
+              </li>
+              <li>
+                <a href="pages/formulario.html">Contacto</a>
+              </li>
+              <li>
+                <a href="#">Terapias </a>
+                <ul class="submenu">
+                  <li>
+                    <a href="pages/astrologia.html">Curso de Astrología</a>
+                  </li>
+                  <li>
+                    <a href="pages/liberacion_emocional.html">Liberación Emocional</a>
+                  </li>
+                  <li>
+                    <a href="pages/biocodificacion.html">Biodecodificación</a>
+                  </li>
+                  <li>
+                    <a href="pages/otras_terapias.html">Terapias Presenciales</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#footer">Nuestras Redes Sociales</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
       <!-- Fin barranav -->
-    </header>
 
+      <!--INICIO CARRUSEL-->
 
-    <!--INICIO CARRUSEL-->
-
-    <!-- El atriburo data-bs-ride="carousel" hace que el carrusel se mueva automaticamente  -->
-    <section>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
-        style="width: 70%; margin-left: 15%;">
-        <!-- Botones inferiores del carrusel -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-            aria-label="Slide 6"></button>
-        </div>
-        <!--Cada imagen del carrusel tiene un link hacia un parrafo con su descripcion-->
-        <!-- CON EL ATRIBUTO data-bs-interval ELIGO EL TIEMPO DE ESPERA EN MS PARA PASAR LA DIAPOSITIVA -->
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="4000">
-            <img src="./img/Logo/Logo_rectangular.png" class="d-block w-100" alt="Logo_Ser_Alma_en_Cuerpo"
-              style="height: 650px;">
+      <!-- El atriburo data-bs-ride="carousel" hace que el carrusel se mueva automaticamente  -->
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+          style="width: 70%; margin-left: 15%;">
+          <!-- Botones inferiores del carrusel -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
           </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <a>
-              <img src="./img/Carrusel/Presentacion/Nuestros_servicios.png" class="d-block w-100"
-                alt="Diagnostico_con_pendulo_portada" style="height: 650px;">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <a>
-              <img src="./img/Carrusel/Presentacion/Presentación_Anita.png" class="d-block w-100"
-                alt="Liberación_emocional_portada" style="height: 650px;">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <a href="./pages/diagnostico_con_pendulo.html">
-              <img src="./img/Carrusel/Diagnostico_con_pendulo_portada.png" class="d-block w-100"
-                alt="Biodecodificación_portada" style="height: 650px;">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <a href="./pages/liberacion_emocional.html">
-              <img src="./img/Carrusel/Liberación_emocional_portada.png" class="d-block w-100"
-                alt="Otras_terapias_portada" style="height: 650px;">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <a href="./pages/biocodificacion.html">
-              <img src="./img/Carrusel/Biodecodificación_portada.png" class="d-block w-100" alt="Otras_terapias_portada"
+          <!--Cada imagen del carrusel tiene un link hacia un parrafo con su descripcion-->
+          <!-- CON EL ATRIBUTO data-bs-interval ELIGO EL TIEMPO DE ESPERA EN MS PARA PASAR LA DIAPOSITIVA -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="./img/Logo/Logo_rectangular.png" class="d-block w-100" alt="Logo_Ser_Alma_en_Cuerpo"
                 style="height: 650px;">
-            </a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev" style="width: 3%;">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next" style="width: 3%;">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!--FIN CARRUSEL-->
-
-    <!-- INICIO VIDEO PRESENTACION -->
-    <section>
-      <div>
-        <div class="video-box">
-          <div class="videos">
-            <div class="tituloVideo">
             </div>
-            <video controls>
-              <source src="./video/video.mp4" type="video/mp4">
-              Su navegador no puede reproducir este video.
-            </video>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a>
+                <img src="./img/Carrusel/Presentacion/Nuestros_servicios.png" class="d-block w-100"
+                  alt="Diagnostico_con_pendulo_portada" style="height: 650px;">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a>
+                <img src="./img/Carrusel/Presentacion/Presentación_Anita.png" class="d-block w-100"
+                  alt="Liberación_emocional_portada" style="height: 650px;">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="./pages/diagnostico_con_pendulo.html">
+                <img src="./img/Carrusel/Diagnostico_con_pendulo_portada.png" class="d-block w-100"
+                  alt="Biodecodificación_portada" style="height: 650px;">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="./pages/liberacion_emocional.html">
+                <img src="./img/Carrusel/Liberación_emocional_portada.png" class="d-block w-100"
+                  alt="Otras_terapias_portada" style="height: 650px;">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="./pages/biocodificacion.html">
+                <img src="./img/Carrusel/Biodecodificación_portada.png" class="d-block w-100"
+                  alt="Otras_terapias_portada" style="height: 650px;">
+              </a>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev" style="width: 3%;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next" style="width: 3%;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
-    </section>
-    <!-- FIN VIDEO PRESENTACION -->
+      </section>
+      <!--FIN CARRUSEL-->
 
-    <!-- INICIO PORTFOLIO-->
-    <section class="content-section" id="portfolio">
-      <div class="container px-4 px-lg-5">
-        <div class="content-section-heading text-center">
-          <h2>Nuestros Servicios</h2>
+      <!-- INICIO VIDEO PRESENTACION -->
+      <section>
+        <div>
+          <div class="video-box">
+            <div class="videos">
+              <div class="tituloVideo">
+              </div>
+              <video controls>
+                <source src="./video/video.mp4" type="video/mp4">
+                Su navegador no puede reproducir este video.
+              </video>
+            </div>
+          </div>
         </div>
-        <div class="row gx-0">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/astrologia.html">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h3"></div>
-                  <p class="mb-0"></p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Atrología/Curso_de_Astrologia.png" alt="Curso_Astrología" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/liberacion_emocional.html" target="_self">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h2"></div>
-                  <p class="mb-0"></p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Carrusel/Liberación_emocional_portada.png"
-                alt="Terapia_Liberación_Emocional" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/biocodificacion.html">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h2"></div>
-                  <p class="mb-0"></p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Carrusel/Biodecodificación_portada.png" alt="Terapia_Biocodificación" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/diagnostico_con_pendulo.html">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h2"></div>
-                  <p class="mb-0"></p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Carrusel/Diagnostico_con_pendulo_portada.png"
-                alt="Diagnostico_con_pendulo" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/otras_terapias.html">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h3"></div>
-                  <p class="mb-0"></p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Carrusel/Otras_terapias_portada.png" alt="Otras_Terapias" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="./pages/formulario.html" target="_self"> <!--envia formulario-->
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h3">Formulario de Contacto</div>
-                  <p class="mb-0">Envianos tus consultas</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="./img/Fondo/fondo_nebulosa_2.png" alt="Imagen_Fondo_Nebulosa" />
-            </a>
-          </div>          
-        </div>
-      </div>
-    </section>
-    <!-- FIN PORTFOLIO -->
+      </section>
+      <!-- FIN VIDEO PRESENTACION -->
 
-    <!-- BOTÓN VOLVER AL INICIO-->
-    </div>
+      <!-- INICIO PORTFOLIO-->
+      <section class="content-section" id="portfolio">
+        <div class="container px-4 px-lg-5">
+          <div class="content-section-heading text-center">
+            <h2>Nuestros Servicios</h2>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/astrologia.html">
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h3"></div>
+                    <p class="mb-0"></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Atrología/Curso_de_Astrologia.png" alt="Curso_Astrología" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/liberacion_emocional.html" target="_self">
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h2"></div>
+                    <p class="mb-0"></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Carrusel/Liberación_emocional_portada.png"
+                  alt="Terapia_Liberación_Emocional" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/biocodificacion.html">
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h2"></div>
+                    <p class="mb-0"></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Carrusel/Biodecodificación_portada.png"
+                  alt="Terapia_Biocodificación" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/diagnostico_con_pendulo.html">
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h2"></div>
+                    <p class="mb-0"></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Carrusel/Diagnostico_con_pendulo_portada.png"
+                  alt="Diagnostico_con_pendulo" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/otras_terapias.html">
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h3"></div>
+                    <p class="mb-0"></p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Terapias_Presenciales/Terapias_presenciales.png"
+                  alt="Terapias_Presenciales" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="./pages/formulario.html" target="_self"> <!--envia formulario-->
+                <div class="caption">
+                  <div class="caption-content">
+                    <div class="h3">Formulario de Contacto</div>
+                    <p class="mb-0">Envianos tus consultas</p>
+                  </div>
+                </div>
+                <img class="img-fluid" src="./img/Fondo/fondo_nebulosa_2.png" alt="Imagen_Fondo_Nebulosa" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIN PORTFOLIO -->
+
+      <!-- BOTÓN VOLVER AL INICIO-->
+  </div>
+  
+  <div class="contenedor-boton-inico">
     <a href="#inicio" class="boton_volver_inicio">
-      <img title="Ir a Inicio" src="./img/iconos/flecha-arriba (1).png" alt="Flecha_Inicio">
+        <img title="Ir a Inicio" src="./img/iconos/flecha-arriba (1).png" alt="Flecha_Inicio">
     </a>
-    <div>
-
+  </div>
+  
     <!-- INICIO FOOTER-->
     <footer id="footer">
       <div class="footer-box">
         <div class="footer">
           <div class="imagenes">
-            <p>Seguínos: </p>
+            <p>Seguinos: </p>
             <a href="https://www.instagram.com/seralmaencuerpo" target="_blank">
               <img title="Instagram" src="./img/iconos/instagram.png" alt="Icono_Instagram">
             </a>

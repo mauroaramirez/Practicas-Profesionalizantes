@@ -1,37 +1,81 @@
-body {
-  margin: 0;
+* {
+	margin: 0;
+	padding: 0;
+
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  /* aca se marca la posicion fija de la barra */
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 3;
+body {
+	margin: 0px;
 }
+
+header {
+	width: 100%;
+}
+
+.navegacion {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	/* aca se marca la posicion fija de la barra */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+}
+
 /* La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. 
 Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.
 Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
-li {
-  float: left;
+
+.navegacion ul {
+	list-style: none;
 }
 
-/* css letras de la barra de navegacion */
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+.menu>li {
+	position: relative;
+	display: inline-block;
 }
 
-/* Cambio de color cuabdo se posiciona sobre la palabra */
-li a:hover:not(.active) {
-  background-color: #12040d;
+/* color de las letras en barra */
+.menu>li>a {
+	margin-left: 100px;
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	font-family: open sans-serif;
+	font-size: large;
+	text-decoration: none;
+}
+
+/* Cuando se posiciona sobre la eleccion cambia de color */
+.menu li a:hover {
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu dentro de un display*/
+
+.submenu {
+	position: absolute;
+	background: #000;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	text-align: left;
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
 }
