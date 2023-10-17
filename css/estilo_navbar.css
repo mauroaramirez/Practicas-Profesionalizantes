@@ -1,76 +1,73 @@
-
-*{
+* {
 	margin: 0;
 	padding: 0;
-	
+
 }
 
-body{
+body {
 	margin: 0px;
 }
 
-header{
+header {
 	width: 100%;
 }
 
-
-.navegacion{
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-
-          background-color: #333;
-  /* aca se marca la posicion fija de la barra */
-          position: fixed;
-          top: 0;
-          width: 100%;
-          z-index: 3;
+.navegacion {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	/* aca se marca la posicion fija de la barra */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
 }
+
 /* La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. 
 Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.
 Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
 
-.navegacion ul{
+.navegacion ul {
 	list-style: none;
 }
 
-.menu > li{
-	
-  
+.menu>li {
 	position: relative;
 	display: inline-block;
 }
-/* color de las letras en barra */
-.menu > li > a{
-   margin-left:  100px;
-   display: block;
-   padding: 10px 20px;
-   color: white;
-   font-family: open sans-serif;
-   font-size: large ;
-   text-decoration: none;
 
+/* color de las letras en barra */
+.menu>li>a {
+	margin-left: 100px;
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	font-family: open sans-serif;
+	font-size: large;
+	text-decoration: none;
 }
+
 /* Cuando se posiciona sobre la eleccion cambia de color */
-.menu li a:hover{
+.menu li a:hover {
 	color: #CE7D35;
 	transition: all .3s;
 }
 
 /* Submenu dentro de un display*/
 
-.submenu{
+.submenu {
 	position: absolute;
-	background: #333;
-	width: 120%;
+	background: #000;
+	width: 100%;
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 1.5s;
-  text-align: left;
+	text-align: left;
 }
 
-.submenu li a{
+.submenu li a {
 	display: block;
 	padding: 15px;
 	color: #fff;
@@ -78,7 +75,7 @@ Por este motivo la barra nav tiene el z-index más alto del sitio*/
 	text-decoration: none;
 }
 
-.menu li:hover .submenu{
+.menu li:hover .submenu {
 	visibility: visible;
 	opacity: 1;
 }
