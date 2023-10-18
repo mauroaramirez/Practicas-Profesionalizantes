@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-
 }
 
 body {
@@ -13,6 +12,7 @@ header {
 }
 
 .navegacion {
+
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -30,52 +30,81 @@ Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
 
 .navegacion ul {
+	
 	list-style: none;
 }
-
-.menu>li {
-	position: relative;
+.navegacion> div{
+	margin-left: 20%; 
 	display: inline-block;
 }
 
-/* color de las letras en barra */
-.menu>li>a {
-	margin-left: 100px;
+.menu > li {
+
+	margin-left: 29px;
+	padding-left: 65px;
+	position: relative;
+	/* display: inline-block los item se posisionan uno al lado del otr0 */
+	display: inline-block;
+}
+
+    /* color de las letras en barra */
+.menu > li > a {
 	display: block;
 	padding: 10px 20px;
 	color: white;
-	font-family: open sans-serif;
-	font-size: large;
+	font-family: 'Dancing Script', cursive;
+	font-size: x-large;
 	text-decoration: none;
 }
 
-/* Cuando se posiciona sobre la eleccion cambia de color */
+     /* Proiedad "hover" que se realiza cuando se posiciona sobre una eleccion cambiando de color */
 .menu li a:hover {
 	color: #CE7D35;
+	/* Propidad "transition" hace  que no se vea bruscamente el cambio de color */
 	transition: all .3s;
 }
 
 /* Submenu dentro de un display*/
 
 .submenu {
+	padding-left: 0%;
 	position: absolute;
 	background: #000;
-	width: 100%;
+	width: 130%;
 	visibility: hidden;
 	opacity: 0;
-	transition: opacity 1.5s;
+	transition: opacity 1s;
 	text-align: left;
 }
 
 .submenu li a {
 	display: block;
-	padding: 15px;
+	padding: 10px 20px;
 	color: #fff;
-	font-family: 'Open sans';
+	font-family: 'Dancing Script', cursive;
+	font-size: large;
 	text-decoration: none;
 }
-
+/* La proiedad ":hover" realiza un efecto al .submenu */
 .menu li:hover .submenu {
 	visibility: visible;
 	opacity: 1;
 }
+
+@media screen and (max-width: 1320px) {
+    .navegacion> div {
+		margin-left: 5%; 
+		display: inline-block;
+    }
+
+	.menu > li {
+
+		margin-left: 29px;
+		padding-left: 65px;
+		position: relative;
+		/* display: inline-block los item se posisionan uno al lado del otr0 */
+		display: inline-block;
+	}
+} 
+
+

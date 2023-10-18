@@ -1,11 +1,12 @@
 .wsp_ubicacion {
-    margin-left: 39%;
+    width: 20%;
+    margin-left: 40%;
 }
 
 .imagenes img {
-    width: 300px;
-    height: 70px;
-    margin: 3%;
+    width: 60%;
+    height: auto;
+
 }
 
 h2 {
