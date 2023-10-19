@@ -15,7 +15,7 @@
 .tituloH2 {
     text-align: center;
     color: white;
-    margin-top: 7%;
+    margin-top: 4%;
     margin-bottom: 3%;
     font-family: 'Dancing Script', cursive;    
 }
@@ -110,5 +110,10 @@ body {
     .carrusel{
         width: 88%; 
         margin-left: 6%;
+    }
+
+    .tituloH2 {
+        margin-top: 0%;
+
     }
   }   
