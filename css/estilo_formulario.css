@@ -66,7 +66,7 @@ option {
   color: white;
 }
 
-.botonenviar {
+.boton_enviar_volver {
   width: 100%;
   background: #1f53c5;
   border: none;
@@ -76,3 +76,26 @@ option {
   font-size: 16px;
   box-shadow: 3px 5px 20px rgb(113, 105, 162);
 }
+
+@media screen and (max-width: 1320px) {
+
+  .formulario-contacto {
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+
+  .botonenviar {
+    width: 50%;
+    margin: 16px 0 1% 25%;
+    font-size: 14px;
+    box-shadow: 3px 5px 20px rgb(113, 105, 162);
+  }
+}   

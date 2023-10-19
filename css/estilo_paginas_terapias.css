@@ -11,6 +11,7 @@ h1 {
     margin-bottom: 2%;
     color: white;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 .center img {
@@ -24,16 +25,16 @@ h1 {
 }
 
 @media screen and (max-width: 1320px) {
+
     h1 {
-        font-size: 1.5em;
+        font-size: 1rem;
         margin-top: 2%;
         margin-bottom: 2%;
         color: white;
         text-align: center;
     }
 
-    h2{
-        font-size: 1em;
+    .center img {
+        width: 80%;
     }
-
-} 
+}   
