@@ -75,6 +75,13 @@ option {
   margin: 16px 0;
   font-size: 16px;
   box-shadow: 3px 5px 20px rgb(113, 105, 162);
+  /* cursor: pointer hace que al pasar el mouse por arriba del boton cambie la imagen del raton de flecha a una mano apuntando*/
+  cursor: pointer;
+}
+
+.boton_volver_text{
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 1320px) {
