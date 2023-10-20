@@ -49,7 +49,7 @@ Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
     /* color de las letras en barra */
 .menu > li > a {
-	display: block;
+	display: fl;
 	padding: 10px 20px;
 	color: white;
 	font-family: 'Dancing Script', cursive;
