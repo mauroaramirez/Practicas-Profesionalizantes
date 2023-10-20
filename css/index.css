@@ -32,10 +32,10 @@ body {
     margin-left: 15%;
 }
 
-#portfolio {
-    color: white;
+.portfolio {
+    margin-top: 2%; 
+    margin-bottom: 5%;
 }
-
 .video-box {
     width: 70%;
     height: auto;
@@ -89,6 +89,7 @@ body {
 @media screen and (max-width: 1320px) {
     .titulo {
         font-size: 1.4rem;
+        margin-top: 1%;
     }
     
     .video-box {
@@ -115,5 +116,9 @@ body {
     .tituloH2 {
         margin-top: 0%;
 
+    }
+
+    .carrusel-button{
+        margin-bottom: 0;
     }
   }   
