@@ -88,14 +88,16 @@ Por este motivo la barra nav tiene el z-index más alto del sitio*/
 	opacity: 1;
 }
 
-@media screen and (min-width: 769px) {
+/* Oculto la barra de navegacion para celulares 
+debe coincidir los px con la media query del estilo de la barra de navegacion para celulares*/
+@media screen and (min-width: 920px) {
 	.header{
 		display: none;
 	}
 }    
 
-
- @media screen and (max-width: 768px) {
+/* Oculto la barra de navegacion para escritorio */
+@media screen and (max-width: 919px) {
 	nav{
 		display: none;
 	}

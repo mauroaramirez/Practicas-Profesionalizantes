@@ -72,8 +72,8 @@
   display: none;
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
+/* MEDIDA PARA CELULARES */
+@media (max-width: 920px) {
   body {
     padding-top: 70px;
   }

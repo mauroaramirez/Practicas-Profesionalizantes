@@ -24,7 +24,6 @@ Desarrollado por:
     - Ramirez Mauro Adrian
     - Dante Zanor
     - Tizziano Martinez
-    - Pablo Toloza
 
 Entrevista con la clienta:
 
