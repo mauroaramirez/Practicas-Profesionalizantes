@@ -2,6 +2,9 @@
   margin-top: 4rem;
   margin-bottom: 6rem;
 }
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
 
 .content-section-heading h2,
 .content-section-heading .h2 {
