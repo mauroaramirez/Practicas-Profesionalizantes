@@ -1,11 +1,11 @@
 .botonvolver {
-  width: 40%;
+  width: 15%;
   /* De la siguiente manera se realiza un degrade de colores. 
     En este caso desde margin top hacia el margin-bottom*/
   background: linear-gradient(to bottom, #ff3366, darkslateblue);
   border: none;
   padding: 12px;
-  margin: 16px 0 1% 30%;
+  margin: 16px 0 1% 42%;
   font-size: 16px;
   box-shadow: 3px 5px 20px rgb(113, 105, 162);
 }
