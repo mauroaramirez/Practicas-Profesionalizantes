@@ -12,6 +12,14 @@
     
 }
 
+.tituloH2 {
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-family: 'Dancing Script', cursive;    
+}
+
 body {
     background-image: url(../img/Fondo/fondo_oscuro.jpg);
     background-repeat: no-repeat;
@@ -19,10 +27,15 @@ body {
     background-size: cover;
 }
 
-#portfolio {
-    color: white;
+.carrusel{
+    width: 70%; 
+    margin-left: 15%;
 }
 
+.portfolio {
+    margin-top: 2%; 
+    margin-bottom: 5%;
+}
 .video-box {
     width: 70%;
     height: auto;
@@ -73,9 +86,39 @@ body {
 }
 
 /* Utilizamos media query para hacer responsivo el sitio para los distintos dispositivos */
-/* @media screen and (max-width: 600px) {
-    .contenedor {
-        background-color: aqua;
-        width: 100%;
+@media screen and (max-width: 1320px) {
+    .titulo {
+        font-size: 1.4rem;
+        margin-top: 1%;
     }
-} */
+    
+    .video-box {
+        width: 88%;
+    }
+
+    .boton_volver_inicio img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        box-shadow: 3px 5px 20px rgb(113, 105, 162);
+    }
+
+    .contenedor-boton-inico{
+        margin-left: 88%; 
+        margin-bottom: 1%;
+    }
+
+    .carrusel{
+        width: 88%; 
+        margin-left: 6%;
+    }
+
+    .tituloH2 {
+        margin-top: 0%;
+
+    }
+
+    .carrusel-button{
+        margin-bottom: 0;
+    }
+  }   

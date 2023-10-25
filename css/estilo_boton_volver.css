@@ -5,8 +5,22 @@
   background: linear-gradient(to bottom, #ff3366, darkslateblue);
   border: none;
   padding: 12px;
-  color: white;
   margin: 16px 0 1% 30%;
   font-size: 16px;
   box-shadow: 3px 5px 20px rgb(113, 105, 162);
 }
+
+.boton_volver_text{
+  color: white; 
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1320px) {
+
+  .botonvolver {
+    width: 30%;
+    margin: 16px 0 1% 35%;
+    font-size: 10px;
+  }
+}   

@@ -1,6 +1,8 @@
 .wsp_ubicacion {
     width: 20%;
     margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .imagenes img {
@@ -15,3 +17,25 @@ h2 {
     color: white;
     text-align: center;
 }
+
+
+@media screen and (max-width: 1320px) {
+
+    .wsp_ubicacion {
+        width: 19%;
+        margin-left: 35%;
+    }
+
+    .imagenes img {
+        width: 160%;
+        height: auto;
+    
+    }
+
+    h2 {
+        margin: 5%;
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+}   

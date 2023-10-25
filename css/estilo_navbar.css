@@ -12,7 +12,6 @@ header {
 }
 
 .navegacion {
-
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -23,14 +22,12 @@ header {
 	width: 100%;
 	z-index: 3;
 }
-
 /* La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. 
 Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren aquellos con menor valor.
 Por este motivo la barra nav tiene el z-index más alto del sitio*/
 
 
 .navegacion ul {
-	
 	list-style: none;
 }
 .navegacion> div{
@@ -91,20 +88,19 @@ Por este motivo la barra nav tiene el z-index más alto del sitio*/
 	opacity: 1;
 }
 
-@media screen and (max-width: 1320px) {
-    .navegacion> div {
-		margin-left: 5%; 
-		display: inline-block;
-    }
-
-	.menu > li {
-
-		margin-left: 29px;
-		padding-left: 65px;
-		position: relative;
-		/* display: inline-block los item se posisionan uno al lado del otr0 */
-		display: inline-block;
+@media screen and (min-width: 769px) {
+	.header{
+		display: none;
 	}
-} 
+}    
+
+
+ @media screen and (max-width: 768px) {
+	nav{
+		display: none;
+	}
+}    
+
+
 
 
