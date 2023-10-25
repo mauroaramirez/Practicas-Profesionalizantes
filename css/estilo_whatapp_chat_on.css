@@ -12,13 +12,14 @@
 }
 
 h2 {
+    font-family: 'Dancing Script', cursive;
     margin: 0%;
     color: white;
     text-align: center;
 }
 
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 920px) {
 
     .wsp_ubicacion {
         width: 19%;
@@ -28,7 +29,6 @@ h2 {
     .imagenes img {
         width: 160%;
         height: auto;
-    
     }
 
     h2 {
